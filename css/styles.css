@@ -38,10 +38,10 @@ body {
     padding-right: 15px;
     margin: 0 auto;
 }
-.list {
+ul {
     list-style: none;
 }
-.link {
+a {
     text-decoration: none;
 }
 
@@ -148,6 +148,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .menu:hover, .menu:focus,
@@ -255,8 +256,11 @@ body {
     color: var(--primery-text-color);
 }
 
-.advantage-icon {
-    padding: 25px 100px;
+.advantage-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
     background-color: #F5F4FA;
     margin-bottom: 30px; 
     border-radius: 4px;
@@ -472,6 +476,7 @@ margin-bottom: 10px;
 
 .footer-block {
     display: flex;        
+    align-items: baseline;
 }
 
 .footer-block-one {
@@ -531,6 +536,7 @@ margin-bottom: 10px;
     display: block;
     
     border-radius: 4px;
+    border: transparent;
     padding: 6px 22px;
     
     font-family: inherit;
@@ -549,6 +555,17 @@ margin-bottom: 10px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 }
+
+.projects-link {
+    display: block;
+}
+
+.projects-link:hover,
+.projects-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+} 
+
+
 /* -----------------projects section------------------ */
 
 .projects-list {
